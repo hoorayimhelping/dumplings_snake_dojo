@@ -8,7 +8,7 @@ export default class Entity {
     this.speed = 1
 
     // 1: up, 2: right, 3: down, 4: left
-    this.direction = 2
+    this.direction = 'right'
   }
 
   // override

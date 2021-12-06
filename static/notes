@@ -1,0 +1,9 @@
+google snake demo: https://www.youtube.com/watch?v=DekS8Pgb1qc
+
+TODO:
+- create wallColliding flag
+  - if a collision happens against the walls, the game is over
+- render GAME OVER text in canvas (https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_text)
+- create snake segments
+  - handle turning so that the head of the snake turns, but the tail of the snake doesn't turn until it gets to the square where the head does
+- tweak directions to be strings ('up', 'down', 'left', 'right') rather than numbers
